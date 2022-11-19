@@ -1,8 +1,14 @@
 import pygame
 import time
+# You obviously copied someone's code or your dad helped you lol but NICE!!!!!!! - JS427
+# Over all you arent that bad at coding, nice commenting on code for reminder congrats - JS427
+# Btw do you want to help with making a minecraft spigot plugin with me ill make a repo soon look at my profile sometime - JS427
 
 pygame.init()
 pygame.display.set_caption('Art Project')
+
+# You should make some log messages for later on for debugging and when you have problems to fix it can be helpful - JS427
+print("Starting Game!")
 
 # Intitial Setup
 screen_color_navy = (32, 42, 68)
@@ -129,6 +135,7 @@ while running:
     pygame.display.flip()
 
 # Done! Time to quit.
+print("Ending Game!")
 pygame.quit()
 
 
